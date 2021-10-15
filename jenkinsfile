@@ -1,5 +1,5 @@
-def account_id="979050235289"
-def region_code="ap-southeast-2"
+def account_id="052937454741"
+def region_code="ap-northeast-1"
 def image_registry="${account_id}"+".dkr.ecr."+"${region_code}"+".amazonaws.com/"
 def image_name="${image_registry}"+"${env.JOB_NAME}"
 def email_recipients="acmexii@naver.com"
